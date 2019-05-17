@@ -8,6 +8,10 @@ The structure of the .csv file is:
 
 invite_username, invite_mailid
 
+example:
+
+nakul,nakulrathore97@gmail.com
+
 
 *******************
 Setup Information
