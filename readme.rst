@@ -33,6 +33,17 @@ apache2
 
 ElasticEmail API
 
+***********
+Structure
+***********
+The control logic is in the ./application/controllers/ folder.
+
+The files for the control logic are:
+Form.php
+Upload.php
+
+The views are rendered from file located in ./application/views
+
 ********
 Issues
 ********
