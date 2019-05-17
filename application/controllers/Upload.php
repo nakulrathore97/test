@@ -107,6 +107,7 @@ class Upload extends CI_Controller
                                         set_error_handler(function(){
                                                 
                                                 //to handle file_get_contents errorrs
+                                                //error are logged automatically in /application/logs
                                         });
                                         $urlstr = "https://api.elasticemail.com/v2/email/send?apikey=dfd01946-4450-45a3-b414-d13087b56302&&subject=PHP%20TASK%20INVITE&to=" . $arr[1] . "&from=nakulrathore97@gmail.com&fromName=Nakul%20Rathore&bodyText=Dear%20" . $arr[0] . "%2C%0AYou%20are%20invited%20to%20this%20sample%20website.%0AHere%20are%20your%20credentials%3A%0Ausername%3A%20" . $arr[1] . "%0Apassword%3A%20password%0A%0ASincerely%2C%0APHP%20Task%0A&trackClicks=false&trackOpens=false&msgFromName=Nakul%20Rathore";
                                         $ggwpez = file_get_contents($urlstr);
