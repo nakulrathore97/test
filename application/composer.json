@@ -1,0 +1,13 @@
+{
+    "name": "afsd/fq4r",
+    "description": "asdf",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "authors": [
+        {
+            "name": "nakul",
+            "email": "nakulrathore97@gmail.com"
+        }
+    ]
+}
