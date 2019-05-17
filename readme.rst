@@ -1,6 +1,8 @@
 ###################
 PHP TASK
 ###################
+The application is hosted at http://18.224.141.242/index.php/form
+
 The application takes sign up information from the user and stores it in database.
 Additionally, the application takes in .csv files and stores its contents and mails the recipients listed in the file.
 
