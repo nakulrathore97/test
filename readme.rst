@@ -46,6 +46,8 @@ Upload.php
 
 The views are rendered from file located in ./application/views
 
+The logs are located in ./application/logs (for instances such as error while sending mail)
+
 ********
 Issues
 ********
