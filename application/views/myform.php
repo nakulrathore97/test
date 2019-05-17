@@ -41,29 +41,30 @@
         <?php echo validation_errors(); ?>
 
         <?php echo form_open('form', "onsubmit='return validateform()' name='myform' class='form-horizontal'"); ?>
-<div class="row justify-content-center" >
+        <div class="row justify-content-center">
 
-        <div class="col-lg-4 col-md-4"><h3 style="padding-top=100px;"> Sign Up</h3>
-        <div class="form-group">
-            <label class="control-label col-md-4" for="username"></label>
-            
-            <input type="text" name="username" class="form-control"value="" placeholder="Full Name" />
-    </div>
-        <div class="form-group">
-            <label class="control-label col-md-4" for="email"></label>
-            
-            <input type="email" name="email"class="form-control" value="" placeholder="Email" />
-        </div>
-        <div class="form-group">
-            <label class="control-label col-md-4" for="password"></label>
-           
-            <input type="password" class="form-control" name="password" id="pwd" value="" placeholder="Password(6 or more characters)" required />
-        </div>
+            <div class="col-lg-4 col-md-4">
+                <h3 style="padding-top=100px;"> Sign Up</h3>
+                <div class="form-group">
+                    <label class="control-label col-md-4" for="username"></label>
 
-        <div><button type="submit" class="btn btn-warning btn-block" value="Submit">CREATE ACCOUNT</button></div>
-    </div>
-        </form>
-    </div>
+                    <input type="text" name="username" class="form-control" value="" placeholder="Full Name" />
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-md-4" for="email"></label>
+
+                    <input type="email" name="email" class="form-control" value="" placeholder="Email" />
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-md-4" for="password"></label>
+
+                    <input type="password" class="form-control" name="password" id="pwd" value="" placeholder="Password(6 or more characters)" required />
+                </div>
+
+                <div><button type="submit" class="btn btn-warning btn-block" value="Submit">CREATE ACCOUNT</button></div>
+            </div>
+            </form>
+        </div>
 </body>
 
 </html>

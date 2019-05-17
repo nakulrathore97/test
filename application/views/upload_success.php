@@ -12,27 +12,27 @@
 </head>
 
 <body>
-<div class="container" style="padding-top=25px;">
-    <h3>Your file was successfully uploaded!</h3>
+    <div class="container" style="padding-top=25px;">
+        <h3>Your file was successfully uploaded!</h3>
 
-    <h5>
-        <?php
-        // echo $upload_data['file_name'];
-        // $str = "./uploads/" . $upload_data['file_name'];
-        // echo "<br>";
-        // echo $str;
-        // echo "<br>";
-        echo $records . " records were stored.";
-        echo "<br>";
-        //echo $gg;
-        ?>
-        <!-- <?php foreach ($upload_data as $item => $value) : ?>
-    <li><?php echo $item; ?>: <?php echo $value; ?></li>
+        <h5>
+            <?php
+            // echo $upload_data['file_name'];
+            // $str = "./uploads/" . $upload_data['file_name'];
+            // echo "<br>";
+            // echo $str;
+            // echo "<br>";
+            echo $records . " records were stored.";
+            echo "<br>";
+            //echo $gg;
+            ?>
+            <!-- <?php foreach ($upload_data as $item => $value) : ?>
+        <li><?php echo $item; ?>: <?php echo $value; ?></li>
 <?php endforeach; ?> -->
-</h5>
+        </h5>
 
-    <p><?php echo anchor('upload', 'Upload Another File!'); ?></p>
-</div>
+        <p><?php echo anchor('upload', 'Upload Another File!'); ?></p>
+    </div>
 </body>
 
 </html>

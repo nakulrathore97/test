@@ -24,8 +24,9 @@ class Welcome extends CI_Controller
 		if ($_SERVER['REQUEST_METHOD'] == "POST" and isset($_POST['someAction'])) {
 			func();
 		}
-		$this->load->view('welcome_message');
-		
+		$this->load->helper('url');
+		redirect('/form', 'refresh');
+		//$this->load->view('welcome_message');
+
 	}
-	
 }

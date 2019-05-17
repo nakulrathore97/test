@@ -1,6 +1,7 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
-?><!DOCTYPE html>
+defined('BASEPATH') or exit('No direct script access allowed');
+?>
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -18,11 +19,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <br>
         <button type='submit' name='submit'>CREATE ACCOUNT</button>
     </form>
-    <?php 
-        if(strlen($this->input->post('name'))<3)
-        {
-            echo "Name should contain more than 2 characters";
-        }
+    <?php
+    if (strlen($this->input->post('name')) < 3) {
+        echo "Name should contain more than 2 characters";
+    }
 
     ?>
 </body>

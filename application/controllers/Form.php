@@ -38,7 +38,7 @@ class Form extends CI_Controller
             $this->db->set('created_on', 'NOW()', FALSE);
             $flag = $this->Insert_model->form_insert($data);
             //$this->load->view('formsuccess');
-            redirect('/upload','refresh');
+            redirect('/upload', 'refresh');
         }
     }
 }

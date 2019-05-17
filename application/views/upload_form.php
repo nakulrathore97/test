@@ -8,21 +8,23 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href=/css/bootstrap.min.css> <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
 
-<title>Upload Form</title>
+    <title>Upload Form</title>
 </head>
+
 <body>
-<div class="container">
-<?php echo $error;?>
+    <div class="container">
+        <?php echo $error; ?>
 
-<?php echo form_open_multipart('upload/do_upload');?>
+        <?php echo form_open_multipart('upload/do_upload'); ?>
 
-<input type="file" name="userfile" size="20" />
+        <input type="file" name="userfile" size="20" />
 
-<br /><br />
+        <br /><br />
 
-<input type="submit" value="upload" />
+        <input type="submit" value="upload" />
 
-</form>
-</div>
+        </form>
+    </div>
 </body>
+
 </html>
