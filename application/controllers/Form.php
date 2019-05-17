@@ -19,7 +19,7 @@ class Form extends CI_Controller
             'required',
             array('required' => '%s must have 6 characters.')
         );
-        $this->form_validation->set_rules('passconf', 'Password Confirmation', 'required');
+        //$this->form_validation->set_rules('passconf', 'Password Confirmation', 'required');
         $this->form_validation->set_rules('email', 'Email', 'required');
 
         if ($this->form_validation->run() == FALSE) {
