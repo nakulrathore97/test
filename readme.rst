@@ -75,9 +75,9 @@ Issues
 https://elasticemail.com/api-documentation/integration-libraries/introduction-to-our-php-api-integration-library/
 This is the PHP library that they want to use.
 
-The file with the mail logic is /applications/controllers/Upload.php line 107.
+The file with the mail logic is /application/controllers/Upload.php line 107.
 
-The library is a single file present in /applications/controllers/ElasticEmailClient.php
+The library is a single file present in /application/controllers/ElasticEmailClient.php
 
 The library calls guzzlehttp (a php client http://docs.guzzlephp.org/en/stable/) which I am not able to integrate.
 guzzlehttp itself requires composer (a dependency manager https://getcomposer.org/) to install.
