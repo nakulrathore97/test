@@ -5,6 +5,7 @@ The application takes sign up information from the user and stores it in databas
 Additionally, the application takes in .csv files and stores its contents and mails the recipients listed in the file.
 
 The structure of the .csv file is:
+
 invite_username, invite_mailid
 
 
@@ -15,10 +16,15 @@ The application was tested on Ubuntu 18.04 with the environment set up as mentio
 https://www.hugeserver.com/kb/how-install-codeigniter-apache-php7-mariadb10-ubuntu16/
 
 The following packages were used:
+
 Codeigniter 3.1.7
+
 php 7.1
+
 mariadb 10.2
+
 apache2
+
 ElasticEmail API
 
 ********
